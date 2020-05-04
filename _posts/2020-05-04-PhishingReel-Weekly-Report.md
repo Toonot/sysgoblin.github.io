@@ -70,8 +70,7 @@ Top 10 most commonly discovered kit owner emails detected over the past week. Th
 ![top kits graph](/assets/images/pr-weeklyreport/2020-05-04-fig1.png)
 
 {% capture notice-1 %}
-Over the past week PhishingReel has detected **647** commercial phishing kits being deployed. The number one being 16Shop which is sold by IndonesianCyberArmy.
-16Shop primarily targets Apple, Amazon and PayPal.
+The top 5 kits were deployed a total of **647** over the past week.
 {% endcapture %}
 
 <div class="notice--info">

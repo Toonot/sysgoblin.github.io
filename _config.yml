@@ -60,7 +60,7 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "🕵️‍♂️"
   links:
-    - label: "@sysg0blin"
+    - label: "sysg0blin"
       icon: "fab fa-keybase"
       url: "https://keybase.io/sysg0blin"
     - label: "@sysgoblin"
