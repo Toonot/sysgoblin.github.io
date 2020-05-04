@@ -21,12 +21,10 @@ After this post subsequent reports will be made weekly on a Monday AM approx 10:
 # 👋🤖
 [PhishingReel](https://twitter.com/phishingreel) monitors and scans the internet to find these kits being deployed and monitors their activity until the domain is taken down. These reports serve as a weekly update on the current state and trends within the world of SaaS phishing kits.
 
-This report only contains analysis of the top 5 kits detected for the week. For further information please contact me via [Twitter](https://twitter.com/sysgoblin) or [Keybase](https://keybase.com/sysg0blin).
+This report only contains summarised analysis of detections for the week. For further information or access to feeds to enrich your own data, please contact me via [Twitter](https://twitter.com/sysgoblin) or [Keybase](https://keybase.com/sysg0blin).
 {: .notice--danger}
 
 ## 👓 Overview
-
-The below contains data points for detections of all kits, not limited to the top 5 for the week.
 
 | Data Point | Total | Trend |
 |---|---|---|
@@ -39,29 +37,6 @@ The below contains data points for detections of all kits, not limited to the to
 
 **Note:** Unique domains do not include subdomains.
 {: .notice--info}
-
-## 📧 Top 10 Emails
-
-|Emails|Count|
-|---|---:|
-| `racikkkannn@yandex.com, admindilan@16shop.us` | 8 |
-| `email@example.com` | 7 |
-| `resultpilihan@yandex.com, inbox@ccmasuk.com` | 7 |
-| `timothy.resultpepeh18@yandex.com, whm@timothytamvan.com` | 6 |
-| `ybx.mail@yandex.com, admin@16shop.us` | 5 |
-| `ajg.betterkuy41@yandex.com, quuen@dbs.us` | 5 |
-| `bastard.result@yandex.com, bastard@dbsu.us` | 5 |
-| `comebackjaya@yandex.com, laung@dbsg.us` | 4 |
-| `pbhtt32350@yahoo.co.jp, youtugo@guaoz.jp` | 4 |
-| `bpentol@yandex.com` | 4 |
-
-{% capture notice-0 %}
-Top 10 most commonly discovered kit owner emails detected over the past week. These emails will receive victim information from the associated phishing kits they own.
-{% endcapture %}
-
-<div class="notice--info">
-  {{ notice-0 | markdownify }}
-</div>
 
 ## 🔎 Top Kit Detections
 ![top kits graph](/assets/images/pr-weeklyreport/2020-05-04-fig1.png)
@@ -83,6 +58,79 @@ Out of the top 5 kits for the past week the date with the highest detections was
 
 <div class="notice--info">
   {{ notice-2 | markdownify }}
+</div>
+
+
+## 📧 Top 5 Emails
+
+|Emails|Count|
+|---|---:|
+| `email@example.com` | 8 |
+| `racikkkannn@yandex.com, admindilan@16shop.us` | 8 |
+| `resultpilihan@yandex.com, inbox@ccmasuk.com` | 7 |
+| `timothy.resultpepeh18@yandex.com, whm@timothytamvan.com` | 6 |
+| `rumahbertingkat2@yandex.com, admin@16shop.us` | 5 |
+
+{% capture notice-0 %}
+Top 5 most commonly discovered kit owner emails detected over the past week. These emails will receive victim information from the associated phishing kits they own.
+{% endcapture %}
+
+<div class="notice--info">
+  {{ notice-0 | markdownify }}
+</div>
+
+## 📞 Top 5 IP's
+
+|IP Address|Count|Trend|
+|---|---:|:---:|
+| `162.241.69.85` | 29 | 🆕 |
+| `162.241.149.186` | 28 | 🆕 |
+| `162.241.115.246` | 17 | 🆕 |
+| `162.214.49.191` | 16 | 🆕 |
+| `162.241.29.128` | 16 | 🆕 |
+
+{% capture notice-ip %}
+Top IP's for the week which have had the most detections. Recurring IP's should be blocked where possible.
+{% endcapture %}
+
+<div class="notice--info">
+  {{ notice-ip | markdownify }}
+</div>
+
+## 🌐 Top 5 Domains
+
+|Domain|Count|Trend|
+|---|---:|:---:|
+|`serveirc.com`|24|🆕|
+|`dynv6.net`|8|🆕|
+|`servehalflife.com`|7|🆕|
+|`gleeze.com`|6|🆕|
+|`servebeer.com`|6|🆕|
+
+{% capture notice-ip %}
+Top domains for the week where commercial phishing kits have been detected. These domains should be blocked where possible.
+{% endcapture %}
+
+<div class="notice--info">
+  {{ notice-ip | markdownify }}
+</div>
+
+## 🔢 Top 5 Kit hashes
+
+|SHA1 Hash|Count|Trend|
+|---|---:|:---:|
+|dce23d26075d930bc2003fce20b5ac03a58685e6|21| 🆕 |
+|e4f4cea3c5c2d6794f9179133b8364966dc82762|14| 🆕 |
+|d78905db1dbc48617a96da4e6c9770d04d313a3d|9| 🆕 |
+|b299405b891b50e2549def0c4f5d15424f5ddd2b|9| 🆕 |
+|7b89522de61fc1b3e0bc2d1103ee7828fc88ca38|7| 🆕 |
+
+{% capture notice-hash %}
+Top hashes of known malicious kits downloaded by PhishingReel. These hashes can be used to pivot for extra data on sites such as VirusTotal, Any.Run and many others.
+{% endcapture %}
+
+<div class="notice--info">
+  {{ notice-hash | markdownify }}
 </div>
 
 {% capture notice-3 %}
