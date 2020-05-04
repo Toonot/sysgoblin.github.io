@@ -7,6 +7,13 @@ tags:
   - Phishing Kits
 ---
 
+<style>
+table {
+    display:table;
+    width:100%;
+}
+</style>
+
 **Please note:** This post is an initial draft for testing purposes and not the final report.
 {: .notice--danger}
 
@@ -43,18 +50,18 @@ The below contains data points for detections of all kits, not limited to the to
 
 The below table contains the top 10 kit owner emails detected over the past week. These email addresses are collected where possible from commercial phishing kits, and show where results and notifications are sent to when a victim has entered information within a phishing site they are running.
 
-  |Emails|Count|
-  |---|---:|
-  | `racikkkannn@yandex.com, admindilan@16shop.us` | 8 |
-  | `email@example.com` | 7 |
-  | `resultpilihan@yandex.com, inbox@ccmasuk.com` | 7 |
-  | `timothy.resultpepeh18@yandex.com, whm@timothytamvan.com` | 6 |
-  | `ybx.mail@yandex.com, admin@16shop.us` | 5 |
-  | `ajg.betterkuy41@yandex.com, quuen@dbs.us` | 5 |
-  | `bastard.result@yandex.com, bastard@dbsu.us` | 5 |
-  | `comebackjaya@yandex.com, laung@dbsg.us` | 4 |
-  | `pbhtt32350@yahoo.co.jp, youtugo@guaoz.jp` | 4 |
-  | `bpentol@yandex.com` | 4 |
+|Emails|Count|
+|---|---:|
+| `racikkkannn@yandex.com, admindilan@16shop.us` | 8 |
+| `email@example.com` | 7 |
+| `resultpilihan@yandex.com, inbox@ccmasuk.com` | 7 |
+| `timothy.resultpepeh18@yandex.com, whm@timothytamvan.com` | 6 |
+| `ybx.mail@yandex.com, admin@16shop.us` | 5 |
+| `ajg.betterkuy41@yandex.com, quuen@dbs.us` | 5 |
+| `bastard.result@yandex.com, bastard@dbsu.us` | 5 |
+| `comebackjaya@yandex.com, laung@dbsg.us` | 4 |
+| `pbhtt32350@yahoo.co.jp, youtugo@guaoz.jp` | 4 |
+| `bpentol@yandex.com` | 4 |
 
 ## 🔎 Top Kit Detections
 ![top kits graph](/assets/images/pr-weeklyreport/2020-05-04-fig1.png)
