@@ -58,22 +58,25 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Chris"
+  name   : ""
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "🕵️‍♂️"
   links:
-    - label: "sysgoblin.github.io"
-      icon: "fas fa-fw fa-link"
-      url: "https://sysgoblin.github.io"
-    - label: "Twitter"
+    - label: "@sysg0blin"
+      icon: "fab fa-keybase"
+      url: "https://keybase.io/sysg0blin"
+    - label: "@sysgoblin"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/sysgoblin"
+    - label: "@phishingreel"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/phishingreel"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/sysgoblin"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/lowbrowdaymare"
+    - label: "Ko-fi"
+      icon: "fas fa-mug-hot"
+      url: "https://ko-fi.com/sysgoblin"
 
 footer:
   links:
@@ -83,9 +86,6 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/sysgoblin"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/lowbrowdaymare"
 
 defaults:
   # _posts
