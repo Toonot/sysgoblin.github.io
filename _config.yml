@@ -56,7 +56,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "c:\hris"
+  name   : "chris"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "🕵️‍♂️"
   links:
