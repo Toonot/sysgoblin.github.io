@@ -15,11 +15,25 @@ After this post subsequent report will be made weekly on a Monday AM, and will b
 {: .notice}
 
 # 👋🤖
-The below report covers information regarding detections of commercial phishing kits from the past week, from `2020-04-27` to `2020-05-04`.  
+The below report covers information regarding detections of the **top 5** commercial phishing kits from the past week, from `2020-04-27` to `2020-05-04`.  
 Commercial phishing kits are those sold by established threat actors or groups to less-skilled individuals, for the express purpose of phishing for credentials and defrauding victims.
 
 [PhishingReel](https://twitter.com/phishingreel) monitors and scans the internet to find these kits being deployed and monitors their activity until the domain is taken down. These reports serve as a weekly update on the current state and trends within the world of SaaS phishing kits.
 
+This report only contains analysis of the top 5 kits detected for the week. For further information please contact me via Twitter or Keybase.
+{: .notice--danger}
+
+## 👓 Overview
+
+The below contains data points for detections of all kits, not limited to the top 5 for the week.
+
+| Data Point | Total | Trend |
+|---|---|---|
+| Total detections | 1158 | 🔼 |
+| Unique emails | 403 | 🔼 |
+| Unique panels | 16 | 🔼 |
+| Unique IP's | 266 | 🔼 |
+| Kits downloaded | 272 | 🔼 |
 
 ## 📧 Top 10 Common Emails
 
