@@ -5,7 +5,6 @@ categories:
 tags:
   - PhishingReel
   - Phishing Kits
-classes: wide
 ---
 
 <style>
