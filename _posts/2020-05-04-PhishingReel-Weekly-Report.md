@@ -58,32 +58,39 @@ The below contains data points for detections of all kits, not limited to the to
 | `pbhtt32350@yahoo.co.jp, youtugo@guaoz.jp` | 4 |
 | `bpentol@yandex.com` | 4 |
 
-<details>
-
+{% capture notice-0 %}
 The above table contains the top 10 kit owner emails detected over the past week. These email addresses are collected where possible from commercial phishing kits, and show where results and notifications are sent to when a victim has entered information within a phishing site they are running.
+{% endcapture %}
 
-</details>
+<div class="notice--info">
+  {{ notice-0 | markdownify }}
+</div>
 
 ## 🔎 Top Kit Detections
 ![top kits graph](/assets/images/pr-weeklyreport/2020-05-04-fig1.png)
-<details>
 
+{% capture notice-1 %}
 Over the past week PhishingReel has detected **647** commercial phishing kits being deployed. The number one being 16Shop which is sold by IndonesianCyberArmy.
 16Shop primarily targets Apple, Amazon and PayPal.
+{% endcapture %}
 
-</details>
+<div class="notice--info">
+  {{ notice-1 | markdownify }}
+</div>
 
 ## 📈 Detections Over Time
 ![detections ot graph](/assets/images/pr-weeklyreport/2020-05-04-fig2.png)
-<details>
-
-Out of the top 5 kits for the past week the date with the highest detections was **2020-05-01** with **192** for that day.  
-_Please note these figures are only for the top 5 kits. Detection counts for these dates overall will be higher, as reported in the daily summaries produced by [PhishingReel](https://twitter.com/phishingreel)._
-
-</details>
-
 
 {% capture notice-2 %}
+Out of the top 5 kits for the past week the date with the highest detections was **2020-05-01** with **192** for that day.  
+_Please note these figures are only for the top 5 kits. Detection counts for these dates overall will be higher, as reported in the daily summaries produced by [PhishingReel](https://twitter.com/phishingreel)._
+{% endcapture %}
+
+<div class="notice--info">
+  {{ notice-2 | markdownify }}
+</div>
+
+{% capture notice-3 %}
 The above information is a summary of the total available data collected.  
 For further information such as trend analysis on ASN's, registrars and targeted geolcation/victim information please contact me via [Twitter](https://twitter.com/sysgoblin) or [Keybase](https://keybase.com/sysg0blin).
 
@@ -91,5 +98,5 @@ If you notice any issues or incorrect information in these reports, please conta
 {% endcapture %}
 
 <div class="notice">
-  {{ notice-2 | markdownify }}
+  {{ notice-3 | markdownify }}
 </div>
