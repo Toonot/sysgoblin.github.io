@@ -59,3 +59,7 @@ For further information such as trend analysis on ASN's, registrars and targeted
 
 If you notice any issues or incorrect information in these reports, please contact me using the above information.
 {% endcapture %}
+
+<div class="notice">
+  {{ notice-2 | markdownify }}
+</div>
