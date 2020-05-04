@@ -34,8 +34,12 @@ The below contains data points for detections of all kits, not limited to the to
 | Unique panels | 16 | 🔼 |
 | Unique IP's | 266 | 🔼 |
 | Kits downloaded | 272 | 🔼 |
+| Unique domains | 674 | 🔼 |
 
-## 📧 Top 10 Common Emails
+**Note:** Unique domains do not include subdomains.
+{: .notice--info}
+
+## 📧 Top 10 Emails
 
 The below table contains the top 10 kit owner emails detected over the past week. These email addresses are collected where possible from commercial phishing kits, and show where results and notifications are sent to when a victim has entered information within a phishing site they are running.
 
