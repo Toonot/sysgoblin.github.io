@@ -14,11 +14,8 @@ table {
 }
 </style>
 
-**Please note:** This post is an initial draft for testing purposes and not the final report.
-{: .notice--danger}
-
 Welcome to the first weekly report from @phishingreel.
-After this post subsequent report will be made weekly on a Monday AM, and will be fully automated.
+After this post subsequent reports will be made weekly on a Monday AM approx 10:00 UTC, and will be fully automated.
 {: .notice}
 
 # 👋🤖
@@ -70,7 +67,7 @@ Top 10 most commonly discovered kit owner emails detected over the past week. Th
 ![top kits graph](/assets/images/pr-weeklyreport/2020-05-04-fig1.png)
 
 {% capture notice-1 %}
-The top 5 kits were deployed a total of **647** over the past week.
+The top 5 kits were deployed a total of **647** times over the past week.
 {% endcapture %}
 
 <div class="notice--info">
