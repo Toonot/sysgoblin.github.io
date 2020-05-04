@@ -59,21 +59,30 @@ The below contains data points for detections of all kits, not limited to the to
 | `bpentol@yandex.com` | 4 |
 
 <details>
-The above table contains the top 10 kit owner emails detected over the past week. These email addresses are collected where possible from commercial phishing kits, and show where results and notifications are sent to when a victim has entered information within a phishing site they are running.
+<summary>❓</summary>
+
+  The above table contains the top 10 kit owner emails detected over the past week. These email addresses are collected where possible from commercial phishing kits, and show where results and notifications are sent to when a victim has entered information within a phishing site they are running.
+  
 </details>
 
 ## 🔎 Top Kit Detections
 ![top kits graph](/assets/images/pr-weeklyreport/2020-05-04-fig1.png)
 <details>
+<summary>❓</summary>
+
 Over the past week PhishingReel has detected **647** commercial phishing kits being deployed. The number one being 16Shop which is sold by IndonesianCyberArmy.
 16Shop primarily targets Apple, Amazon and PayPal.
+
 </details>
 
 ## 📈 Detections Over Time
 ![detections ot graph](/assets/images/pr-weeklyreport/2020-05-04-fig2.png)
 <details>
-Out of the top 5 kits for the past week the date with the highest detections was **2020-05-01** with **192** for that day.  
-_Please note these figures are only for the top 5 kits. Detection counts for these dates overall will be higher, as reported in the daily summaries produced by [PhishingReel](https://twitter.com/phishingreel)._
+<summary>❓</summary>
+
+  Out of the top 5 kits for the past week the date with the highest detections was **2020-05-01** with **192** for that day.  
+  _Please note these figures are only for the top 5 kits. Detection counts for these dates overall will be higher, as reported in the daily summaries produced by [PhishingReel](https://twitter.com/phishingreel)._
+
 </details>
 
 
