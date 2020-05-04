@@ -35,7 +35,7 @@ The below contains data points for detections of all kits, not limited to the to
 | Unique panels | 14 | 🔼 |
 | Unique IP's | 236 | 🔼 |
 | Kits downloaded | 229 | 🔼 |
-| Unique domains | 674 | 🔼 |
+| Unique domains | 631 | 🔼 |
 
 **Note:** Unique domains do not include subdomains.
 {: .notice--info}
@@ -67,7 +67,7 @@ Top 10 most commonly discovered kit owner emails detected over the past week. Th
 ![top kits graph](/assets/images/pr-weeklyreport/2020-05-04-fig1.png)
 
 {% capture notice-1 %}
-The top 5 kits were deployed a total of **647** times over the past week.
+The top 5 kits were deployed a total of **698** times over the past week.
 {% endcapture %}
 
 <div class="notice--info">
@@ -87,7 +87,7 @@ Out of the top 5 kits for the past week the date with the highest detections was
 
 {% capture notice-3 %}
 The above information is a summary of the total available data collected.  
-For further information such as trend analysis on ASN's, registrars and targeted geolcation/victim information please contact me via [Twitter](https://twitter.com/sysgoblin) or [Keybase](https://keybase.com/sysg0blin).
+For further information such analysis on ASN's, registrars and targeted geolcation/victim information please contact me via [Twitter](https://twitter.com/sysgoblin) or [Keybase](https://keybase.com/sysg0blin).
 
 If you notice any issues or incorrect information in these reports, please contact me using the above information.
 {% endcapture %}
