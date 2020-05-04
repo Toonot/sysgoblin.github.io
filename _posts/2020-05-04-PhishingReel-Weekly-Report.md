@@ -30,11 +30,11 @@ The below contains data points for detections of all kits, not limited to the to
 
 | Data Point | Total | Trend |
 |---|---|---|
-| Total detections | 1158 | 🔼 |
-| Unique emails | 403 | 🔼 |
-| Unique panels | 16 | 🔼 |
-| Unique IP's | 266 | 🔼 |
-| Kits downloaded | 272 | 🔼 |
+| Total detections | 751 | 🔼 |
+| Unique emails | 266 | 🔼 |
+| Unique panels | 14 | 🔼 |
+| Unique IP's | 236 | 🔼 |
+| Kits downloaded | 229 | 🔼 |
 | Unique domains | 674 | 🔼 |
 
 **Note:** Unique domains do not include subdomains.
