@@ -27,18 +27,18 @@ The below table contains the top 10 kit owner emails detected over the past week
 
 <center>
 
-|Emails|Count|
-|---|---:|
-| `racikkkannn@yandex.com, admindilan@16shop.us` | 8 |
-| `email@example.com` | 7 |
-| `resultpilihan@yandex.com, inbox@ccmasuk.com` | 7 |
-| `timothy.resultpepeh18@yandex.com, whm@timothytamvan.com` | 6 |
-| `ybx.mail@yandex.com, admin@16shop.us` | 5 |
-| `ajg.betterkuy41@yandex.com, quuen@dbs.us` | 5 |
-| `bastard.result@yandex.com, bastard@dbsu.us` | 5 |
-| `comebackjaya@yandex.com, laung@dbsg.us` | 4 |
-| `pbhtt32350@yahoo.co.jp, youtugo@guaoz.jp` | 4 |
-| `bpentol@yandex.com` | 4 |
+  |Emails|Count|
+  |---|---:|
+  | `racikkkannn@yandex.com, admindilan@16shop.us` | 8 |
+  | `email@example.com` | 7 |
+  | `resultpilihan@yandex.com, inbox@ccmasuk.com` | 7 |
+  | `timothy.resultpepeh18@yandex.com, whm@timothytamvan.com` | 6 |
+  | `ybx.mail@yandex.com, admin@16shop.us` | 5 |
+  | `ajg.betterkuy41@yandex.com, quuen@dbs.us` | 5 |
+  | `bastard.result@yandex.com, bastard@dbsu.us` | 5 |
+  | `comebackjaya@yandex.com, laung@dbsg.us` | 4 |
+  | `pbhtt32350@yahoo.co.jp, youtugo@guaoz.jp` | 4 |
+  | `bpentol@yandex.com` | 4 |
 
 </center>
 
@@ -52,7 +52,8 @@ Over the past week PhishingReel has detected **647** commercial phishing kits be
 ## 📈 Detections Over Time
 ![detections ot graph](/assets/images/pr-weeklyreport/2020-05-04-fig2.png)
 
-This graph represents the top 5 kits detected for the past week. 
+Out of the top 5 kits for the past week the date with the highest detections was **2020-05-01** with **192** for that day.  
+Please note these figures are only for the top 5 kits. Detection counts for these dates overall will be higher, as reported in the daily summaries produced by [PhishingReel](https://twitter.com/phishingreel).
 
 
 
