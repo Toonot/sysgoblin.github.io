@@ -1,7 +1,7 @@
 main:
   - title: "✍ Posts"
     url: /posts/
-  - title: "🗂 Categories"
+  - title: "📁 Categories"
     url: /categories/
   - title: "📑 Tags"
     url: /tags/
