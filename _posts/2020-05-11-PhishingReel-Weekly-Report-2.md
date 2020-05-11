@@ -1,11 +1,12 @@
 ---
-title: "PhishingReel Weekly Report 2
-2020-05-11"
+title: "PhishingReel Weekly Report 2 2020-05-11"
 categories:
   - PhishingReel Reports
 tags:
   - PhishingReel
   - Phishing Kits
+  header: 
+  teaser: "/assets/images/pr-weeklyreport/2020-05-11-fig2.png"
 ---
 
 <style>
