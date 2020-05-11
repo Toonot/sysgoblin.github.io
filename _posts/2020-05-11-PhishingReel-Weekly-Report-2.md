@@ -5,7 +5,7 @@ categories:
 tags:
   - PhishingReel
   - Phishing Kits
-  header: 
+header: 
   teaser: "/assets/images/pr-weeklyreport/2020-05-11-fig2.png"
 ---
 
