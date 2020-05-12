@@ -13,7 +13,7 @@ header:
 <style>
 table {
     display:table;
-    width:80%;
+    width:100%;
     margin-left:auto; 
     margin-right:auto;
 }
@@ -234,7 +234,7 @@ _Click details for full results._
 ![bins by country](/assets/images/16shop-victim-analysis-bins_by_country.png){: .center-image }
 
 {% capture table_2 %}
-Country| Count
+|Country|Count|
 |---|:---|
 |United States|2277|
 |Japan|176|
@@ -421,7 +421,7 @@ In total there were 38246 visits recorded with 29551 of those being unique. With
 
 These results go to show that commercial kits like 16Shop are highly targeted, effective and simple to use. This effectively lowers the bar for potential fraudsters wanting to make a quick buck. 
 
-The information and IOC's within PhishingReel's weekly reports and daily posts should help you keep up to date with the latest developments and trends within the world of SaaS phishing kits, and hopefully reduce the risk of you or someone you know falling victim to these.
+The information and IOC's within PhishingReel's [weekly reports](https://sysgoblin.github.io/categories/#phishingreel-reports) and [daily gists](https://twitter.com/phishingreel) should help you keep up to date with the latest developments and trends within the world of SaaS phishing kits, and hopefully reduce the risk of you or someone you know falling victim to them.
 
 ---
 
@@ -432,6 +432,6 @@ For further information please contact me via [Twitter](https://twitter.com/sysg
 If this has been of use or interest to you, please consider helping me out and [keeping me caffeinated!](https://ko-fi.com/sysgoblin) ☕
 {% endcapture %}
 
-<div class="warn">
+<div class="notice">
   {{ notice-3 | markdownify }}
 </div>
