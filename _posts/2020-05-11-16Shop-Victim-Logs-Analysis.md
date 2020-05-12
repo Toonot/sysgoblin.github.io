@@ -39,15 +39,15 @@ After cleansing the data and removing duplicates, I produced some basic statisti
 | ISP's | 147 |
 | IP's | 13735 |
 | **Total victims logged** | **13936** |
+
 &nbsp;  
 &nbsp;  
-&nbsp;  
+
 # Victim geolocation
 
 From an initial eyeball of the victim data it was apparent that the US was the most targeted country out of these deployments, making up almost **60%** of all victims. I took the victim data and extrapolated the below graph of the top 10 countries by victim count.  
 
 _Click details for a table of all countries._
-
 
 ![victims by country](/assets/images/16shop-victim-analysis-country_graph.png){: .center-image }
 
@@ -196,15 +196,13 @@ _Click details for a table of all countries._
 
 &nbsp;  
 &nbsp;  
-&nbsp;  
+
 # US victim analysis
 
 Out of the US victims it was also clear a vast majority of them were accessing these phishing pages via mobile devices. 📲  
 This is not entirely surprising, as use of mobile devices to browse the web continues to increase. It is also generally being harder for mobile users to discern legitimate and malicious websites within a mobile browser- especially when these kits are responsive/"mobile friendly".
 
-
 ![device pie chart](/assets/images/16shop-victim-analysis-device_pie_chart.png){: .center-image }
-
 
 A top 10 of the ISP information shows these are primarily from consumer home and mobile internet providers.
 
@@ -338,14 +336,13 @@ Country| Count
   {{ table_2 | markdownify }}
 </details>
 &nbsp;  
-&nbsp;  
 It was also possible to produce a top 10 of banks whose customers had fell victim to these phishing sites.
 
-![bins by bank](../assets/images/16shop-victim-analysis-bins_by_bank.png){: .center-image }
+![bins by bank](/assets/images/16shop-victim-analysis-bins_by_bank.png){: .center-image }
+ 
+&nbsp;  
+&nbsp;  
 
-&nbsp;  
-&nbsp;  
-&nbsp;  
 # Trends within the data
 
 During analysis it became clear there were certain similarities between the victim logs.
@@ -407,9 +404,10 @@ Some of these "visitors" can be tracked across several domains, indicating the s
 | `support.mailapp.secuirity-verifikey.ascavc.com`                                   | 36.90.76.191    | Handheld Browser | iPhone     | PT Telkom Indonesia |
 | `safeandmanage.accinfo-formlimitation2020.tembelekgarings.com`                     | 36.90.88.240    | Chrome           | Windows 10 | PT Telkom Indonesia |
 
+&nbsp;  
+
 In total there were 38246 visits recorded with 29551 of those being unique. With the total victim count, this shows these 16Shop kits have had an average **47% success rate**. 😰
 
-&nbsp;  
 &nbsp;  
 &nbsp;  
 # Summary of findings
@@ -434,6 +432,6 @@ For further information please contact me via [Twitter](https://twitter.com/sysg
 If this has been of use or interest to you, please consider helping me out and [keeping me caffeinated!](https://ko-fi.com/sysgoblin) ☕
 {% endcapture %}
 
-<div class="notice">
+<div class="warn">
   {{ notice-3 | markdownify }}
 </div>
