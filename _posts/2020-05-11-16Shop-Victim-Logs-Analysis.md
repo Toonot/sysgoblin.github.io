@@ -7,7 +7,7 @@ tags:
   - Phishing Kits
 classes: wide
 header: 
-  teaser: "/assets/images/pr-weeklyreport/..."
+  teaser: "/assets/images/16shop-victim-analysis-teaser.png"
 ---
 
 <style>
@@ -19,8 +19,7 @@ table {
 }
 </style>
 
-# Introduction
-As you may have seen from my [weekly reports](...), the most popular commercial phishing kit being detected by [PhishingReel](https://twitter.com/phishingreel) at the moment is **16Shop**.  Making up nearly 40% of all detections, I thought it may be interesting to do some analysis on the victim log data I have collected from over the past week.
+As you may have seen from my [weekly reports](https://sysgoblin.github.io/categories/#phishingreel-reports), the most popular commercial phishing kit being detected by [PhishingReel](https://twitter.com/phishingreel) at the moment is **16Shop**.  Making up nearly 40% of all detections, I thought it may be interesting to do some analysis on the victim log data I have collected from over the past week.
 
 If you are not familiar with 16Shop or what it is, I recommend you have a read through this thread by [@JCyberSec_](https://twitter.com/jcybersec_) which gives a great overview of what it is and its history. 👇
 
@@ -40,7 +39,9 @@ After cleansing the data and removing duplicates, I produced some basic statisti
 | ISP's | 147 |
 | IP's | 13735 |
 | **Total victims logged** | **13936** |
-
+&nbsp;  
+&nbsp;  
+&nbsp;  
 # Victim geolocation
 
 From an initial eyeball of the victim data it was apparent that the US was the most targeted country out of these deployments, making up almost **60%** of all victims. I took the victim data and extrapolated the below graph of the top 10 countries by victim count.  
@@ -193,6 +194,9 @@ _Click details for a table of all countries._
   {{ table_1 | markdownify }}
 </details>
 
+&nbsp;  
+&nbsp;  
+&nbsp;  
 # US victim analysis
 
 Out of the US victims it was also clear a vast majority of them were accessing these phishing pages via mobile devices. 📲  
@@ -229,12 +233,9 @@ The victim logs contained data on those which had supplied bank details, however
 
 _Click details for full results._
 
-
 ![bins by country](/assets/images/16shop-victim-analysis-bins_by_country.png){: .center-image }
 
-
-<details>
-
+{% capture table_2 %}
 Country| Count
 |---|:---|
 |United States|2277|
@@ -331,13 +332,20 @@ Country| Count
 |Jamaica|1|
 |Slovenia|1|
 |Northern Mariana Islands|1|
+{% endcapture %}
 
+<details> 
+  {{ table_2 | markdownify }}
 </details>
-
+&nbsp;  
+&nbsp;  
 It was also possible to produce a top 10 of banks whose customers had fell victim to these phishing sites.
 
 ![bins by bank](../assets/images/16shop-victim-analysis-bins_by_bank.png){: .center-image }
 
+&nbsp;  
+&nbsp;  
+&nbsp;  
 # Trends within the data
 
 During analysis it became clear there were certain similarities between the victim logs.
@@ -401,6 +409,9 @@ Some of these "visitors" can be tracked across several domains, indicating the s
 
 In total there were 38246 visits recorded with 29551 of those being unique. With the total victim count, this shows these 16Shop kits have had an average **47% success rate**. 😰
 
+&nbsp;  
+&nbsp;  
+&nbsp;  
 # Summary of findings
 > 60% of all victims are US based
 
