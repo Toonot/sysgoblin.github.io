@@ -50,9 +50,7 @@ _Click details for a table of all countries._
 
 ![victims by country](/assets/images/16shop-victim-analysis-country_graph.png){: .center-image }
 
-
-<details> 
-
+{% capture table_1 %}
 |Name| Count|
 |---|---|
 |United States|8499|
@@ -189,7 +187,10 @@ _Click details for a table of all countries._
 |Palau|1|
 |Saint Lucia|1|
 |Zimbabwe|1|
+{% endcapture %}
 
+<details> 
+  {{ table_1 | markdownify }}
 </details>
 
 # US victim analysis
