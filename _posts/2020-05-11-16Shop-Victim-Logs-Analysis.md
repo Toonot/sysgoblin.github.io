@@ -23,11 +23,8 @@ table {
 As you may have seen from my [weekly reports](...), the most popular commercial phishing kit being detected by [PhishingReel](https://twitter.com/phishingreel) at the moment is **16Shop**.  Making up nearly 40% of all detections, I thought it may be interesting to do some analysis on the victim log data I have collected from over the past week.
 
 If you are not familiar with 16Shop or what it is, I recommend you have a read through this thread by [@JCyberSec_](https://twitter.com/jcybersec_) which gives a great overview of what it is and its history. 👇
-<center>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">:: 16Shop Intelligence Thread ::<a href="https://twitter.com/hashtag/16Shop?src=hash&amp;ref_src=twsrc%5Etfw">#16Shop</a> is a prolific and one of the first <a href="https://twitter.com/hashtag/Phishing?src=hash&amp;ref_src=twsrc%5Etfw">#Phishing</a>-as-a-Service (PaaS) offerings. <br><br>⚠️This is an intelligence thread on notable elements of the kit, the operation, how to test and detect the scam.<a href="https://twitter.com/hashtag/THREAD?src=hash&amp;ref_src=twsrc%5Etfw">#THREAD</a> <a href="https://t.co/mTFeByFx5a">pic.twitter.com/mTFeByFx5a</a></p>&mdash; Jake (@JCyberSec_) <a href="https://twitter.com/JCyberSec_/status/1255902497782317056?ref_src=twsrc%5Etfw">April 30, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-</center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">:: 16Shop Intelligence Thread ::<a href="https://twitter.com/hashtag/16Shop?src=hash&amp;ref_src=twsrc%5Etfw">#16Shop</a> is a prolific and one of the first <a href="https://twitter.com/hashtag/Phishing?src=hash&amp;ref_src=twsrc%5Etfw">#Phishing</a>-as-a-Service (PaaS) offerings. <br><br>⚠️This is an intelligence thread on notable elements of the kit, the operation, how to test and detect the scam.<a href="https://twitter.com/hashtag/THREAD?src=hash&amp;ref_src=twsrc%5Etfw">#THREAD</a> <a href="https://t.co/mTFeByFx5a">pic.twitter.com/mTFeByFx5a</a></p>&mdash; Jake (@JCyberSec_) <a href="https://twitter.com/JCyberSec_/status/1255902497782317056?ref_src=twsrc%5Etfw">April 30, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 I've made this analysis from a sample of the total data set, consisting of victim information from just over 100 unique deployments from the past week. The data scraped consists of IP/geo/device information for those which have visited the phishing site, entered credentials or even supplied bank and credit card information.
 
@@ -50,11 +47,9 @@ From an initial eyeball of the victim data it was apparent that the US was the m
 
 _Click details for a table of all countries._
 
-<center>
 
-![victims by country](/assets/images/16shop-victim-analysis-country_graph.png)
+![victims by country](/assets/images/16shop-victim-analysis-country_graph.png){: .center-image }
 
-</center>
 
 <details> 
 
@@ -202,11 +197,9 @@ _Click details for a table of all countries._
 Out of the US victims it was also clear a vast majority of them were accessing these phishing pages via mobile devices. 📲  
 This is not entirely surprising, as use of mobile devices to browse the web continues to increase. It is also generally being harder for mobile users to discern legitimate and malicious websites within a mobile browser- especially when these kits are responsive/"mobile friendly".
 
-<center>
 
-![device pie chart](/assets/images/16shop-victim-analysis-device_pie_chart.png)
+![device pie chart](/assets/images/16shop-victim-analysis-device_pie_chart.png){: .center-image }
 
-</center>
 
 A top 10 of the ISP information shows these are primarily from consumer home and mobile internet providers.
 
@@ -235,11 +228,9 @@ The victim logs contained data on those which had supplied bank details, however
 
 _Click details for full results._
 
-<center>
 
-![bins by country](/assets/images/16shop-victim-analysis-bins_by_country.png)
+![bins by country](/assets/images/16shop-victim-analysis-bins_by_country.png){: .center-image }
 
-</center>
 
 <details>
 
@@ -344,11 +335,7 @@ Country| Count
 
 It was also possible to produce a top 10 of banks whose customers had fell victim to these phishing sites.
 
-<center>
-
-![bins by bank](../assets/images/16shop-victim-analysis-bins_by_bank.png)
-
-</center>
+![bins by bank](../assets/images/16shop-victim-analysis-bins_by_bank.png){: .center-image }
 
 # Trends within the data
 
