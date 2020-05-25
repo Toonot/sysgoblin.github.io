@@ -1,5 +1,5 @@
 ---
-title: "PhishingReel Weekly Report 2020-05-25"
+title: "PhishingReel Weekly Report 4"
 categories:
   - PhishingReel Reports
 tags:
