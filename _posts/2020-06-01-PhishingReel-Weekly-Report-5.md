@@ -117,11 +117,11 @@ Top domains for the week where commercial phishing kits have been detected. Thes
 
 | SHA1 Hash                                  | Count | Trend |
 | ------------------------------------------ | ----: | :---: |
-| `1e2b5cbe646da8a3d228f4d5c5d9dfa0137192e1` |    16 |       |
-| `4f514599543e419353e48e37d6a7ce38a6f22110` |     8 |       |
-| `b299405b891b50e2549def0c4f5d15424f5ddd2b` |     6 |       |
-| `bb478881a1c7ca7a07065f12cb9783c472eb83a0` |     6 |       |
-| `99e5bdcfdc69ee6a2638a9f3496ec039f74f20fa` |     5 |       |
+| `1e2b5cbe646da8a3d228f4d5c5d9dfa0137192e1` |    16 |   🔼   |
+| `4f514599543e419353e48e37d6a7ce38a6f22110` |     8 |   🔼   |
+| `b299405b891b50e2549def0c4f5d15424f5ddd2b` |     6 |   🔼   |
+| `bb478881a1c7ca7a07065f12cb9783c472eb83a0` |     6 |   🆕   |
+| `99e5bdcfdc69ee6a2638a9f3496ec039f74f20fa` |     5 |   🆕   |
 
 
 {% capture notice-hash %}
