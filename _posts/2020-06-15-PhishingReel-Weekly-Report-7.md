@@ -28,7 +28,7 @@ This report only contains summarised analysis of detections for the week. For fu
 | Unique panels    | 13    |   🔽   |
 | Unique IP's      | 244   |   🔼   |
 | Kits downloaded  | 453   |   🔽   |
-| Unique domains   | 679   |   🔼   |
+| Unique domains   | 775   |   🔼   |
 
 
 **Note:** Unique domains do not include subdomains.
@@ -38,7 +38,7 @@ This report only contains summarised analysis of detections for the week. For fu
 ![top kits graph](/assets/images/pr-weeklyreport/2020-06-15-fig1.png)
 
 {% capture notice-1 %}
-The top 5 kits were deployed a total of **1212** times over the past week.
+The top 5 kits were deployed a total of **1411** times over the past week.
 {% endcapture %}
 
 <div class="notice--info">
@@ -58,13 +58,13 @@ Out of the top 5 kits for the past week the date with the highest detections was
 
 ## 📧 Top 5 Emails
 
-| Emails                                               | Count |
-| ---------------------------------------------------- | ----: |
-| `yoi31834@gmail.com, ys@youngsister.com`             |    12 |
-| `babingentot@yandex.com, 16shop@agusgantengdong.com` |    11 |
-| `rezulthere@yandex.com`                              |    10 |
-| `spamlah@yandex.com`                                 |    10 |
-| `rezult.pucku@gmail.com, admin@16shop.us`            |    10 |
+| Emails                                       | Count |
+| -------------------------------------------- | ----: |
+| `demibuahati@yandex.ru, teguh@ganteng.cokkk` |    13 |
+| `yoi31834@gmail.com, ys@youngsister.com`     |    12 |
+| `spamlah@yandex.com`                         |    10 |
+| `rezult.pucku@gmail.com, admin@16shop.us`    |    10 |
+| `rezulthere@yandex.com`                      |    10 |
 
 
 {% capture notice-0 %}
@@ -96,13 +96,13 @@ Top IP's for the week which have had the most detections. Recurring IP's should 
 
 ## 🌐 Top 5 Domains
 
-| Domain                   | Count | Trend |
-| ------------------------ | ----: | :---: |
-| `gleeze.com`             |    66 |   ⏹   |
-| `giize.com`              |    47 |   🔼   |
-| `serveirc.com`           |    37 |   ⏹   |
-| `duckdns.org`            |    26 |   🆕   |
-| `servecounterstrike.com` |    19 |   🆕   |
+| Domain         | Count | Trend |
+| -------------- | ----: | :---: |
+| `gleeze.com`   |    72 |   ⏹   |
+| `giize.com`    |    54 |   🔼   |
+| `serveirc.com` |    45 |   ⏹   |
+| `duckdns.org`  |    26 |   🆕   |
+| `kozow.com`    |    25 |   🔽   |
 
 
 {% capture notice-ip %}
@@ -122,6 +122,7 @@ Top domains for the week where commercial phishing kits have been detected. Thes
 | `09bb0127e1951f268c5dc7114bde98d70e0ba592` |     7 |   ⏹   |
 | `6a90d3458486530752ff0147adf0d5619b55ce5c` |     6 |   🆕   |
 | `99e5bdcfdc69ee6a2638a9f3496ec039f74f20fa` |     6 |   🆕   |
+
 
 {% capture notice-hash %}
 Top hashes of known malicious kits downloaded by PhishingReel. These hashes can be used to pivot for extra data on sites such as VirusTotal, Any.Run and many others.
